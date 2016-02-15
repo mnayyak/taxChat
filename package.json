@@ -1,0 +1,22 @@
+{
+  "name": "stockchat",
+  "version": "1.0.0",
+  "description": "this is chat application to chat on share market",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manjunath Nayak",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "cors": "^2.7.1",
+    "express": "^4.2.0",
+    "express-session": "^1.13.0",
+    "hogan-express": "^0.5.2",
+    "mongoose": "^4.4.3",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.0"
+  }
+}

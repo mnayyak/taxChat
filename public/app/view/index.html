@@ -1,0 +1,38 @@
+<!doctype html>
+<html ng-app="MyApp">
+<!-- <html> -->
+<head>
+	<base href="/"></base>
+	<title>
+		this is a chat application
+	</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+	 
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.js"></script> 
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular-route.js"></script>
+
+	<script type="text/javascript" src="app/controller/facebookController.js"></script>
+
+	<script type="text/javascript" src="app/services/facebookService.js"></script>
+
+	<script type="text/javascript" src="app/app.js"></script>
+	<script type="text/javascript" src="app/app.route.js"></script>
+
+</head>
+<body>
+	<div class="container">
+		<!-- <div style="width: 600px; height: 400px; background-color: lavender; border: solid 1px silver; box-shadow: 0px 3px 5px 1px silver;">  -->
+		<!-- <button ng-click="singUpFacebbok()"></button> -->
+		<!-- <a href="/api/auth/facebook"> -->
+			<!-- <img src="app/Images/facebook-icon.jpg" style="width:500px;height:400px" /> -->
+			<!-- <br> -->
+			<!-- <h1> -->
+				<!-- Click here to login with facebook -->
+			<!-- </h1> -->
+		<!-- </a> -->
+	</div>
+	<main class="container">
+		<div ng-view></div>
+	</main>
+</body>
+</html>
